@@ -11,7 +11,7 @@
     width: 290px;
     text-align: center;
 }
-
+/* use this throughout the print */
 /* @media print{
     .parent div:first-child{
         font-size: 100px;
