@@ -25,9 +25,9 @@
     }
 } */
 
-/* @media (min-width:1000px) and (max-width:1400px){
+@media (min-width:1000px) and (max-width:1400px){
         .parent div {
                     background-color: blue;
         }
 
-} */
+}
