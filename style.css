@@ -1,32 +1,26 @@
-.parent{
-     display: flex;
-     width: 1200px;
-     justify-content: space-between;
-     flex-wrap: wrap;
-     margin: 20px auto;
+
+.parent {
+    border: 2px solid red;
+    padding: 20px;
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
 }
 
 .parent div{
-    background-color: red;
-    width: 290px;
+    color: blue;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: blueviolet;
     text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
 }
-/* use this throughout the print */
-/* @media print{
-    .parent div:first-child{
-        font-size: 100px;
-        display: none;
-    }
-} */
 
-/* @media (min-width:1000px){
+@media (min-width: 768px) and (max-width: 991px) {
     .parent div {
-        background-color: blue;
+        width:calc(50%-10px);
     }
-} */
-@media (min-width:1000px) and (max-width:1400px){
-        .parent div {
-                    background-color: blue;
-        }
-
 }
