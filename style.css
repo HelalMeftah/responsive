@@ -1,8 +1,5 @@
 
 .parent {
-    border: 2px solid red;
-    padding: 20px;
-    background-color: lightgray;
     display: flex;
     flex-wrap: wrap;
     justify-content:space-evenly;
@@ -19,8 +16,14 @@
     margin-bottom: 10px;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) {
     .parent div {
-        width:calc(50%-10px);
+        width:49%;
+    }
+}
+
+@media (min-width: 992px) {
+    .parent div {
+        width:24%;
     }
 }
